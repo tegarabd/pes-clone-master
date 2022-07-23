@@ -1,0 +1,99 @@
+.wrapper {
+    width: 240px;
+    height: 339px;
+    color: white;
+}
+
+img {
+    max-width: 100%;
+}
+
+.player_top {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr;
+    width: 240px;
+}
+
+.player_top_left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.player_rating {
+    margin: 0.5rem 0 0 0;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.player_position {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.player_team_img {
+    margin-top: 0.3rem;
+    width: 60px;
+}
+
+.player_bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.player_stars {
+    margin: 0;
+    color: rgb(187, 255, 0);
+}
+
+.player_name {
+    margin: 0;
+}
+
+.player_stats {
+    display: flex;
+    justify-content: center;
+    column-gap: 0.5rem;
+}
+
+.player_stat {
+    margin: 0;
+}
+
+.player_origin, .player_spec {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 220px;
+}
+
+.player_origin_img, .player_spec_img {
+    width: 40px;
+}
+
+.player_spec {
+    margin-top: 0.5rem;
+}
+
+.player_spec_text {
+    margin: 0;
+    color: rgb(187, 255, 0);
+}
+
+.player_feet {
+    display: flex;
+    width: 40px;
+    justify-content: space-between;
+}
+
+.foot {
+    color: rgb(70, 70, 70);
+}
+
+.foot.active {
+    color: rgb(187, 255, 0);
+}
